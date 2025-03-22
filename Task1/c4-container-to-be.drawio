@@ -175,11 +175,6 @@
             <mxGeometry x="2560" y="1510" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="REST API " c4Type="Container" c4Technology="Java" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="ClCE7GTaCTzuDHSpGF7t-17">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#121212;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeWidth=2;verticalAlign=middle;fontFamily=Helvetica;" parent="1" vertex="1">
-            <mxGeometry x="2590" y="1800" width="240" height="120" as="geometry" />
-          </mxCell>
-        </object>
         <mxCell id="ClCE7GTaCTzuDHSpGF7t-20" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LVaAMeicEtWHT6wpsMjD-22" target="ClCE7GTaCTzuDHSpGF7t-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -188,13 +183,19 @@
             <mxGeometry x="2115" y="1740" width="310" height="200" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="ClCE7GTaCTzuDHSpGF7t-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ClCE7GTaCTzuDHSpGF7t-17" target="LVaAMeicEtWHT6wpsMjD-14" edge="1">
+        <mxCell id="ClCE7GTaCTzuDHSpGF7t-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="P0qlIJ5rssy5U1qjGsnh-1" target="LVaAMeicEtWHT6wpsMjD-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2840" y="1860" />
             </Array>
+            <mxPoint x="2860" y="1900" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <object placeholders="1" c4Type="Message bus" c4Container="Message bus" c4Technology="kafka" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="P0qlIJ5rssy5U1qjGsnh-1">
+          <mxCell style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=light-dark(#050505, #45a4ce);metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;gradientColor=none;strokeWidth=2;" parent="1" vertex="1">
+            <mxGeometry x="2570" y="1800" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
